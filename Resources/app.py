@@ -53,6 +53,10 @@ def welcome():
         f"/api/v1.0/start<br/>"
         f"/api/v1.0/start/end<br/>"
 
+        #############################################
+        # Adding Hyperlinks to Routes for easy access
+        #############################################
+
         f"<h2>Hyperlinks for routes available below:</h2>"
         f"<ol><li><a href=http://127.0.0.1:5000/api/v1.0/precipitation>"
         f"JSON list of prcp amounts by date for the most recent year of data available</a></li><br/><br/>"
